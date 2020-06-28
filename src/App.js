@@ -1,26 +1,36 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import Jumbotron from "./components/Jumbotron";
+import EmployeeCard from "./components/EmployeeCard";
+import employees from "./employees.json";
+import Wrapper from "./components/Wrapper";
+import Navbar from "./components/Navbar";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+    state = {
+        employees
+    };
+
+    render() {
+        return (
+            <div>
+                <Jumbotron />
+                <div className="container">
+                <Navbar />
+                <Wrapper>
+                    {this.state.employees.map(employee => (
+                        <EmployeeCard
+                            id={employee.id}
+                            name={employee.name}
+                            image={employee.image}
+                            occupation={employee.occupation}
+                            supervisor={employee.supervisor}
+                        />
+                    ))}
+                </Wrapper>
+                </div>
+            </div>
+        )
+    }
 }
 
 export default App;
