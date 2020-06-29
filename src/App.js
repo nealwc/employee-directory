@@ -3,7 +3,7 @@ import Jumbotron from "./components/Jumbotron";
 import EmployeeCard from "./components/EmployeeCard";
 import employees from "./employees.json";
 import Wrapper from "./components/Wrapper";
-import Navbar from "./components/Navbar";
+import ButtonGroup from "./components/ButtonGroup";
 
 class App extends Component {
     state = {
@@ -15,7 +15,7 @@ class App extends Component {
             <div>
                 <Jumbotron />
                 <div className="container">
-                <Navbar />
+                <ButtonGroup />
                 <Wrapper>
                     {this.state.employees.map(employee => (
                         <EmployeeCard

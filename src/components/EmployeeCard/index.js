@@ -5,7 +5,7 @@ function EmployeeCard(props) {
   return (
     <div className="card">
       <div className="img-container">
-        <img alt={props.name} src={props.image} />
+        <img alt={props.lastName} src={props.image} />
       </div>
       <div className="content">
         <ul>
