@@ -1,72 +1,82 @@
 [
     {
-      "id": 1,
-      "name": "Will Neal",
-      "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-      "occupation": "Assistant Superintendent",
-      "supervisor": "Jim Boatwright"
+        "id": 1,
+        "firstName": "Will",
+        "lastName": "Neal",
+        "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
+        "occupation": "Assistant Superintendent",
+        "supervisor": "Jim Boatwright"
     },
     {
         "id": 2,
-        "name": "Will Neal",
+        "firstName": "Brent",
+        "lastName": "Lowe",
         "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-        "occupation": "Assistant Superintendent",
-        "supervisor": "Jim Boatwright"
-      },
-      {
+        "occupation": "Assistant Project Manager",
+        "supervisor": "Michael Ferrari"
+    },
+    {
         "id": 3,
-        "name": "Will Neal",
+        "firstName": "Don",
+        "lastName": "Harper",
         "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-        "occupation": "Assistant Superintendent",
+        "occupation": "Laborer",
         "supervisor": "Jim Boatwright"
-      },
-      {
+    },
+    {
         "id": 4,
-        "name": "Will Neal",
+        "firstName": "Michael",
+        "lastName": "Ferrari",
         "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-        "occupation": "Assistant Superintendent",
-        "supervisor": "Jim Boatwright"
-      },
-      {
+        "occupation": "Senior Project Manager",
+        "supervisor": "Ryan Berryman"
+    },
+    {
         "id": 5,
-        "name": "Will Neal",
+        "firstName": "Jim",
+        "lastName": "Boatwright",
         "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-        "occupation": "Assistant Superintendent",
-        "supervisor": "Jim Boatwright"
-      },
-      {
+        "occupation": "Superintendent",
+        "supervisor": "Ryan Berryman"
+    },
+    {
         "id": 6,
-        "name": "Will Neal",
+        "firstName": "Will",
+        "lastName": "Neal",
         "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
         "occupation": "Assistant Superintendent",
         "supervisor": "Jim Boatwright"
-      },
-      {
+    },
+    {
         "id": 7,
-        "name": "Will Neal",
+        "firstName": "Will",
+        "lastName": "Neal",
         "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
         "occupation": "Assistant Superintendent",
         "supervisor": "Jim Boatwright"
-      },
-      {
-          "id": 8,
-          "name": "Will Neal",
-          "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-          "occupation": "Assistant Superintendent",
-          "supervisor": "Jim Boatwright"
-        },
-        {
-          "id": 9,
-          "name": "Will Neal",
-          "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-          "occupation": "Assistant Superintendent",
-          "supervisor": "Jim Boatwright"
-        },
-        {
-          "id": 10,
-          "name": "Will Neal",
-          "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-          "occupation": "Assistant Superintendent",
-          "supervisor": "Jim Boatwright"
-        }
+    },
+    {
+        "id": 8,
+        "firstName": "Will",
+        "lastName": "Neal",
+        "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
+        "occupation": "Assistant Superintendent",
+        "supervisor": "Jim Boatwright"
+    },
+    {
+        "id": 9,
+        "firstName": "Will",
+        "lastName": "Neal",
+        "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
+        "occupation": "Assistant Superintendent",
+        "supervisor": "Jim Boatwright"
+    },
+    {
+        "id": 10,
+        "firstName": "Will",
+        "lastName": "Neal",
+        "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
+        "occupation": "Assistant Superintendent",
+        "supervisor": "Jim Boatwright"
+    }
 ]

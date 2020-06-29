@@ -20,7 +20,8 @@ class App extends Component {
                     {this.state.employees.map(employee => (
                         <EmployeeCard
                             id={employee.id}
-                            name={employee.name}
+                            firstName={employee.firstName}
+                            lastName={employee.lastName}
                             image={employee.image}
                             occupation={employee.occupation}
                             supervisor={employee.supervisor}
