@@ -10,12 +10,25 @@ class App extends Component {
         employees
     };
 
+    filterSupervisor = supervisor => {
+        const employees = this.state.employees.filter(employee => employee.supervisor === supervisor);
+        this.setState({ employees })
+    };
+
+    sortByName = event => {
+        const option = event.target.value;
+        const sortByName = employees.sort((a, b) => (a[option].charAt(0) > b[option].charAt(0)) ? 1 : -1);
+            this.setState({ employees })
+    }
+
     render() {
         return (
-            <div>
+            <>
                 <Jumbotron />
                 <div className="container">
-                <ButtonGroup />
+                <ButtonGroup 
+                    sortByName = {this.sortByName}
+                    filterSupervisor = {this.filterSupervisor}/>
                 <Wrapper>
                     {this.state.employees.map(employee => (
                         <EmployeeCard
@@ -23,13 +36,13 @@ class App extends Component {
                             firstName={employee.firstName}
                             lastName={employee.lastName}
                             image={employee.image}
-                            occupation={employee.occupation}
+                            title={employee.title}
                             supervisor={employee.supervisor}
                         />
                     ))}
                 </Wrapper>
                 </div>
-            </div>
+            </>
         )
     }
 }

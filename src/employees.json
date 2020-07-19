@@ -1,82 +1,82 @@
 [
     {
         "id": 1,
-        "firstName": "Will",
-        "lastName": "Neal",
-        "image": "https://randomuser.me/api/portraits/men/75.jpg",
-        "occupation": "Assistant Superintendent",
-        "supervisor": "Jim Boatwright"
+        "firstName": "Shaurya",
+        "lastName": "Whitworth",
+        "image": "https://thispersondoesnotexist.com",
+        "title": "Software Engineer",
+        "supervisor": "Klay Douglas"
     },
     {
         "id": 2,
-        "firstName": "Brenda",
-        "lastName": "Lowe",
-        "image": "https://randomuser.me/api/portraits/women/94.jpg",
-        "occupation": "Assistant Project Manager",
-        "supervisor": "Michael Ferrari"
+        "firstName": "Huzaifa",
+        "lastName": "Cantrell",
+        "image": "https://thispersondoesnotexist.com/",
+        "title": "Software Engineer",
+        "supervisor": "Klay Douglas"
     },
     {
         "id": 3,
-        "firstName": "Don",
-        "lastName": "Harper",
-        "image": "https://randomuser.me/api/portraits/men/80.jpg",
-        "occupation": "Laborer",
-        "supervisor": "Jim Boatwright"
+        "firstName": "Freya",
+        "lastName": "Gentry",
+        "image": "https://thispersondoesnotexist.com/",
+        "title": "Software Engineer",
+        "supervisor": "Klay Douglas"
     },
     {
         "id": 4,
-        "firstName": "Michael",
-        "lastName": "Ferrari",
-        "image": "https://randomuser.me/api/portraits/men/79.jpg",
-        "occupation": "Senior Project Manager",
-        "supervisor": "Ryan Berryman"
+        "firstName": "Diesel",
+        "lastName": "Blackburn",
+        "image": "https://thispersondoesnotexist.com/",
+        "title": "Software Engineer",
+        "supervisor": "Mirza Trejo"
     },
     {
         "id": 5,
-        "firstName": "Jim",
-        "lastName": "Boatwright",
-        "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-        "occupation": "Superintendent",
-        "supervisor": "Ryan Berryman"
+        "firstName": "Olli",
+        "lastName": "Levy",
+        "image": "https://thispersondoesnotexist.com/",
+        "title": "Software Engineer",
+        "supervisor": "Mirza Trejo"
     },
     {
         "id": 6,
-        "firstName": "Tom",
-        "lastName": "Harden",
-        "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-        "occupation": "Carpenter",
-        "supervisor": "Jim Boatwright"
+        "firstName": "Sheldon",
+        "lastName": "Hopper",
+        "image": "https://thispersondoesnotexist.com/",
+        "title": "Software Engineer",
+        "supervisor": "Mirza Trejo"
     },
     {
         "id": 7,
-        "firstName": "Jorge",
-        "lastName": "Cesar",
-        "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-        "occupation": "Assistant Superintendent",
-        "supervisor": "Jim Boatwright"
+        "firstName": "Herbert",
+        "lastName": "Calderon",
+        "image": "https://thispersondoesnotexist.com/",
+        "title": "Junior Software Engineer",
+        "supervisor": "Klay Douglas"
     },
     {
         "id": 8,
-        "firstName": "Henry",
-        "lastName": "Rogers",
-        "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-        "occupation": "Assistant Project Manager",
-        "supervisor": "Michael Ferrari"
+        "firstName": "Luis",
+        "lastName": "Snyder",
+        "image": "https://thispersondoesnotexist.com/",
+        "title": "Junior Software Engineer",
+        "supervisor": "Mirza Trejo"
     },
     {
         "id": 9,
-        "firstName": "Rodney",
-        "lastName": "Anderson",
-        "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-        "occupation": "Laborer",
-        "supervisor": "Jim Boatwright"
+        "firstName": "Mirza",
+        "lastName": "Trejo",
+        "image": "https://thispersondoesnotexist.com/",
+        "title": "Project Manager",
+        "supervisor": ""
     },
     {
         "id": 10,
-        "firstName": "Josh",
-        "lastName": "Wrong",
-        "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-        "occupation": "Carpenter",
-        "supervisor": "Jim Boatwright"
+        "firstName": "Klay",
+        "lastName": "Douglas",
+        "image": "https://thispersondoesnotexist.com/",
+        "title": "Project Manager",
+        "supervisor": ""
     }
 ]
