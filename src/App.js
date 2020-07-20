@@ -10,16 +10,24 @@ class App extends Component {
         employees
     };
 
-    filterSupervisor = supervisor => {
-        const employees = this.state.employees.filter(employee => employee.supervisor === supervisor);
-        this.setState({ employees })
+    filterBySupervisor = event => {
+        event.preventDefault();
+        console.log("clicked supervisor");
+        const supervisor = event.target.value
+
+        const employeesBySupervisor = this.state.employees.filter(employee => employee.supervisor === supervisor);
+        this.setState({ employeesBySupervisor })
     };
 
-    sortByName = event => {
-        const option = event.target.value;
-        const sortByName = employees.sort((a, b) => (a[option].charAt(0) > b[option].charAt(0)) ? 1 : -1);
-            this.setState({ employees })
-    }
+    sortByFirstName = e => {
+        const employeesByFirstName = employees.sort((a, b) => (a["firstName"].charAt(0) > b["firstName"].charAt(0)) ? 1 : -1);
+            this.setState({ employeesByFirstName })
+    };
+
+    sortByLastName = e => {
+        const employeesByLastName = employees.sort((a, b) => (a["lastName"].charAt(0) > b["lastName"].charAt(0)) ? 1 : -1);
+            this.setState({ employeesByLastName })
+    };
 
     render() {
         return (
@@ -27,8 +35,9 @@ class App extends Component {
                 <Jumbotron />
                 <div className="container">
                 <ButtonGroup 
-                    sortByName = {this.sortByName}
-                    filterSupervisor = {this.filterSupervisor}/>
+                    sortByFirstName = {this.sortByFirstName}
+                    sortByLastName = {this.sortByLastName}
+                    filterBySupervisor = {this.filterBySupervisor}/>
                 <Wrapper>
                     {this.state.employees.map(employee => (
                         <EmployeeCard
