@@ -10,13 +10,15 @@ class App extends Component {
         employees
     };
 
-    filterBySupervisor = event => {
-        event.preventDefault();
+    filterBySupervisor = e => {
+        // e.preventDefault();
         console.log("clicked supervisor");
-        const supervisor = event.target.value
+        
+        const supervisor = e.target.value
+        console.log(supervisor);
 
-        const employeesBySupervisor = this.state.employees.filter(employee => employee.supervisor === supervisor);
-        this.setState({ employeesBySupervisor })
+        const employees = this.state.employees.filter(employee => employee.supervisor === supervisor);
+        this.setState({ employees })
     };
 
     sortByFirstName = e => {
