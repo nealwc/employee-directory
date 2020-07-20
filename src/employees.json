@@ -3,7 +3,7 @@
         "id": 1,
         "firstName": "Shaurya",
         "lastName": "Whitworth",
-        "image": "https://thispersondoesnotexist.com",
+        "image": "https://thispersondoesnotexist.com/image",
         "title": "Software Engineer",
         "supervisor": "Klay Douglas"
     },
@@ -11,7 +11,7 @@
         "id": 2,
         "firstName": "Huzaifa",
         "lastName": "Cantrell",
-        "image": "https://thispersondoesnotexist.com/",
+        "image": "https://thispersondoesnotexist.com/image",
         "title": "Software Engineer",
         "supervisor": "Klay Douglas"
     },
@@ -19,7 +19,7 @@
         "id": 3,
         "firstName": "Freya",
         "lastName": "Gentry",
-        "image": "https://thispersondoesnotexist.com/",
+        "image": "https://thispersondoesnotexist.com/image",
         "title": "Software Engineer",
         "supervisor": "Klay Douglas"
     },
@@ -27,7 +27,7 @@
         "id": 4,
         "firstName": "Diesel",
         "lastName": "Blackburn",
-        "image": "https://thispersondoesnotexist.com/",
+        "image": "https://thispersondoesnotexist.com/image",
         "title": "Software Engineer",
         "supervisor": "Mirza Trejo"
     },
@@ -35,7 +35,7 @@
         "id": 5,
         "firstName": "Olli",
         "lastName": "Levy",
-        "image": "https://thispersondoesnotexist.com/",
+        "image": "https://thispersondoesnotexist.com/image",
         "title": "Software Engineer",
         "supervisor": "Mirza Trejo"
     },
@@ -43,7 +43,7 @@
         "id": 6,
         "firstName": "Sheldon",
         "lastName": "Hopper",
-        "image": "https://thispersondoesnotexist.com/",
+        "image": "https://thispersondoesnotexist.com/image",
         "title": "Software Engineer",
         "supervisor": "Mirza Trejo"
     },
@@ -51,7 +51,7 @@
         "id": 7,
         "firstName": "Herbert",
         "lastName": "Calderon",
-        "image": "https://thispersondoesnotexist.com/",
+        "image": "https://thispersondoesnotexist.com/image",
         "title": "Junior Software Engineer",
         "supervisor": "Klay Douglas"
     },
@@ -59,7 +59,7 @@
         "id": 8,
         "firstName": "Luis",
         "lastName": "Snyder",
-        "image": "https://thispersondoesnotexist.com/",
+        "image": "https://thispersondoesnotexist.com/image",
         "title": "Junior Software Engineer",
         "supervisor": "Mirza Trejo"
     },
@@ -67,7 +67,7 @@
         "id": 9,
         "firstName": "Mirza",
         "lastName": "Trejo",
-        "image": "https://thispersondoesnotexist.com/",
+        "image": "https://thispersondoesnotexist.com/image",
         "title": "Project Manager",
         "supervisor": ""
     },
@@ -75,7 +75,7 @@
         "id": 10,
         "firstName": "Klay",
         "lastName": "Douglas",
-        "image": "https://thispersondoesnotexist.com/",
+        "image": "https://thispersondoesnotexist.com/image",
         "title": "Project Manager",
         "supervisor": ""
     }

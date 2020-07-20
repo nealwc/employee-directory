@@ -11,11 +11,7 @@ class App extends Component {
     };
 
     filterBySupervisor = e => {
-        // e.preventDefault();
-        console.log("clicked supervisor");
-        
         const supervisor = e.target.value
-        console.log(supervisor);
 
         const employees = this.state.employees.filter(employee => employee.supervisor === supervisor);
         this.setState({ employees })
