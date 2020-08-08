@@ -6,6 +6,8 @@
 
 Employee Directory allows the user to view a company's entire directory at once so that the user has quick access to employee information. The user can sort the employees by their first or last name. The user can also sort employees by their supervisor.
 
+![Employee Directory](./public/employeeDirectory.png)
+
 ## Installation
 
 In the terminal run:
